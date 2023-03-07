@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Indie+Flower&family=Mynerve&family=Noto+Serif&family=Oswald&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Oswald";
+    background-image: url(../imagenes/pexels-miguel-á-padriñán-19670.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    margin: 0 30px;
+}
+
+header nav ul li button{
+    background-color: black;
+    border-radius: 35%;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.titulo{ 
+    color: white;
+    background-color: black;
+}
+
+.titulo h1{
+    position: absolute;
+    text-align: right;
+    padding: 25px 100px 0;
+    right: 37%;
+    top: 0;
+    font-size: 35px;
+}
+.titulo h2{
+    position: absolute;
+    text-align: right;
+    padding: 45px 80px 0;
+    right: 25%;
+    top: 6%;
+    font-size: 35px;
+}
+.titulo img{
+    border-radius: 35%;
+    padding: 10px 20px;
+}
+div{ 
+    top: 5%;
+    text-align: center;
+}
+div h4{
+    text-align: center;
+    padding: 20px 100px 0;
+    right: 39%;
+    top: 28%;
+    font-size: 20px;
+}
+
+.contenido{
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;    
+}
+
+.contenido ul{
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    padding: 15px;    
+}
